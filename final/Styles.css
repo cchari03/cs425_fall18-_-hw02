@@ -1,0 +1,581 @@
+<head>
+<link rel="stylesheet href="https://fonts.googleapis.com/css?family=Charmonman">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+    .scrollmenu{
+
+ 
+    text-decoration:none;
+    font-size:50px;
+
+    
+    }
+    .scrollmenu a{
+    display:inline-block;
+    text-align: center;
+    text-decoration:none;
+    padding-top:80px;
+    font-size:1.5em;
+    color:black;
+    
+    }
+    
+    .scrollmenu a:hover{
+
+
+    background-color: #777
+    }
+    @font-face { 
+
+        font-family: 'Charmonman', cursive;
+        src: url("https://fonts.googleapis.com/css?family=Charmonman");
+
+    }
+    .scrollmenu{
+        text-align: center;
+        display: inline-block;
+      
+        
+    }
+    .Fixedmenu{
+        margin-top: 30px;
+    }
+    .Fixed{
+        overflow: hidden;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+        text-align: center;
+        background-color: white;
+       
+    }
+    
+
+.Fixed a{
+
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+
+
+.Fixed a:hover {
+    background: #ddd;
+    color: black;
+    text-align: center;
+    cursor: auto;
+}
+
+
+.Fixedmenu2{
+    margin-top: 30px;
+}
+.Fixed2{
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0px; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    text-align: center;
+    background-color: black;
+
+   
+}
+
+
+.Fixed2 a{
+
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 0px 0px;
+text-decoration: none;
+}
+
+
+.Fixed2 a:hover {
+background: #ddd;
+color: black;
+text-align: center;
+cursor: auto;
+}
+
+
+
+.TT2{
+padding-top:2%;
+float: left;
+width:50%; 
+
+}
+*{
+    box-sizing: border-box;
+}
+.TT{
+ float:left;
+ width:50%;
+ padding-top: 10%;
+
+}
+
+#BioS{
+    font-weight: bolder;
+    color:white;
+    font-size:25;
+    text-align: center;
+}
+ #Work{
+    color:white;
+    background-color: black;
+    font-family: 'Charmonman', cursive;
+   
+ /*border: 0.1vw solid black;
+   /* border-top-right-radius: 0.2%;*/
+    border-block-start: black;
+    
+ }   
+#image1{
+
+    padding-bottom:10px;
+ 
+}
+#line{
+    background-color:black;
+}
+
+.Banner{
+    background-image: url("test2.jpg");
+    background-repeat:no-repeat;
+    color:white;
+    width: 100%;
+    height: 27em;
+    margin:0%;
+   
+    background-size: 100% 100%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+   
+    background-color:black;
+ 
+    
+}
+
+
+
+#T{
+   
+    color:black;
+    
+}
+#Studio{
+background-color:black;
+
+background-repeat: no-repeat; 
+background-size: 100% 100%;
+text-align: center;
+table-layout: fixed;
+
+}
+.Bio{
+text-align: center;
+color:white;   
+background-color: black;
+  
+    
+}
+#Title4{
+    color:white;
+    font-size:22;
+
+}
+#menu{
+text-align:center;
+
+
+}
+.firstpage{
+  margin:0%;
+  width: 100%;
+  height:100%;
+  text-align: center;
+  background-color:black;
+}
+
+.AboutPage{
+        background-color:black;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+        
+        text-align: center;
+        }
+.TableAbout{
+    font-family: 'Charmonman', cursive;
+    font-size: 29;
+    width: 100%;
+    color:white;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Formstyle{
+
+text-align: center;
+color:white;
+float: left;
+height: auto;
+width:50%;
+font-family: 'Charmonman', cursive;
+font-size: 20;
+
+
+}
+.Gallery{
+    text-align: center;
+    margin:0%;
+    /*background-position-x: 50%;
+    background-position-y: 50%;*/
+   width:100%;
+}
+.ToJustify{
+font-size:15px;
+}      
+.Tablee{
+   margin:0;
+    color:white;
+    text-align: center;
+    width:100%;
+
+    
+}
+.Tablee tr{
+    
+    margin:0;
+    width:100%;
+    height:50%;
+}
+.Tablee td img{
+    width:100%;
+    
+    }
+.Tablee td {
+    padding:0;
+    margin:0;
+    width:25%;
+    height:25%;
+}
+#Title3{
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 8%;
+    padding-top:8%;
+
+    
+}
+#Information{
+font-family: 'Charmonman', cursive;
+width:50%;
+
+font-size: 1.5em;
+text-align: center;
+color:white;
+float:left;
+padding-top: 10%;
+      
+}
+
+
+@media only screen and (max-width: 600px)  {
+
+    #Information{
+      
+        width:100%;
+        
+      
+          }
+          .Formstyle{
+              width:100%;
+          }
+
+}
+
+.AllImage{
+
+    float:left;
+    
+}
+
+#i1{
+width:25%;
+color:white;
+float:left;
+
+
+}
+#i2{
+width:25%;
+color:white;
+float:left;
+
+}
+#i3{
+width:25%;
+color:white;
+float:left;
+
+
+}
+#i4{
+    color: white;
+width:25%;
+float:left;
+
+}
+
+
+#Title2{
+
+    font-family: 'Charmonman', cursive;
+    font-size: 18;
+        text-align: center;
+        color:white;
+        font-weight: bolder;
+      
+
+}
+#Title {
+   padding-top:9%;
+    text-align:center;
+    color:white;
+ font-size: 3em;
+
+  font-family: 'Charmonman', cursive;
+  padding-bottom: 9%;
+    }
+
+.Vision{
+    background-image: url("light.jpg");
+   background-repeat: no-repeat;
+    margin:0%;
+
+   background-size: 200em 80em;
+   background-position-x: 20%;
+
+        
+  
+}
+.Vision2{
+ 
+color:black;
+font-family: 'Charmonman', cursive;
+font-size:1.7em;
+margin-left: auto;
+margin-right: auto;
+font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 600px)  {
+ 
+ .TT{
+
+    float:none;
+    width:100%;
+    
+  }
+  .TT2{
+    
+      float:none;
+      width:100%;
+  }
+}
+
+#Top{
+
+    
+    font-size: 20px;
+    font-weight: bolder;
+    color:black;
+    
+}
+#Top{
+    color: black;
+    position: fixed;
+    bottom:0;
+    background-color: white;
+   
+    
+}
+/* Add a hover effect if you want */
+
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 25px;
+    width: 30px;
+    
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    font-size: 25px;
+    width: 30px;
+   
+
+}
+#Topp{
+    text-align: left;
+
+    width: 50%;
+    
+}
+
+.FT{
+    margin-bottom: 0%;
+    position: normal;
+    width:50%;
+    bottom:1px;
+    
+}
+
+.B{
+    float:left;
+    width:100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .firstpage {
+        width: 49.99999%;
+    
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .firstpage {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 600px)  {
+
+#i1{
+    width:50%;
+    height:auto;
+    color:white;
+    
+}
+#i2{
+    width:50%;
+    height:auto;
+    color:white;
+    
+}
+#i3{
+    width:50%;
+    color:white;
+    height:auto;
+
+}
+#i4{
+    width:50%;
+    height:auto;
+    color:white;
+    
+}
+
+}
+
+
+@media screen and (max-width: 600px)  {
+    .Banner{
+        background-image: url("test2.jpg");
+        background-repeat:no-repeat;
+        color:white;
+        width: 100%;
+        height: 12em;
+        margin:0%;
+       
+        background-size: 100% 100%;
+        background-position-x: 50%;
+        background-position-y: 50%;
+       padding-top:10px;
+       padding-bottom:10px;
+        background-color:black;
+     
+        
+    }
+    #Title{
+        color:white;
+        
+    }
+    #Title3{
+        color: white;
+        font-size: 1.5em;
+
+    }
+}
+@media screen and (max-width: 600px)  {
+.Vision{
+    background-image: url("light.jpg");
+   background-repeat: no-repeat;
+    margin:0%;
+
+   background-size: 30em 8em;
+   background-position-x: 0%;
+}
+.Vision2{
+ 
+    color:black;
+    font-family: 'Charmonman', cursive;
+     font-size:0.5em;
+ margin-left: auto;
+ margin-right: auto;
+ font-weight: bolder;
+ }
+}
+
+@media screen and (max-width: 600px)  {
+
+    #Title {
+        padding-top: 2%;
+        text-align:center;
+        
+        font-size: 1.5em;
+     
+        font-family: 'Charmonman', cursive;
+       
+        }
+
+
+
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
